@@ -112,7 +112,8 @@ li {
 
 .descr {
 	display: inline-block;
-	&__head {
+	&__head,
+	&__head--sleep {
 		font-weight: 800;
 		font-size: 40px;
 		span {
@@ -154,6 +155,6 @@ li {
 }
 
 .surf,
-.travel {
+.holder {
 	padding: 160px 0 120px;
 }
